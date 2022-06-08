@@ -206,6 +206,9 @@ ul {
     background-color: #F5F4FA;
 
 }
+.team .item {
+    text-align: center;
+}
 .team .title {
     font-weight: 700;
     font-size: 36px;
@@ -331,6 +334,8 @@ ul {
 
 }
 .portfolio-title {
+    margin-left: 24px;
+    margin-right: 24px;
     margin-top: 20px;
     margin-bottom: 4px;
 }
@@ -339,6 +344,8 @@ ul {
     line-height: 2;
 }
 .about {
+    margin-left: 24px;
+    margin-right: 24px;
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -359,3 +366,4 @@ ul {
     background: var(--white-color);
     border: 1px solid #EEEEEE;
 }
+
