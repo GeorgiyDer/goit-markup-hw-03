@@ -38,7 +38,10 @@ ul {
     text-decoration: none;
     color: var(--main-text-color)
 }
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -100,6 +103,8 @@ ul {
     margin-right: 50px;
 }
 .contacts-nav .link {
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
@@ -112,7 +117,7 @@ ul {
     color: var(--brand-color);
 }
 /* main */
-.hero {
+section.hero {
     padding-top: 200px; 
     padding-bottom: 200px;
     background-color: #2F303A;
@@ -154,10 +159,7 @@ ul {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.benefits {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 .benefits .list {
     display: flex;
 }
@@ -178,10 +180,9 @@ ul {
     color: var(--secondary-text-color);
     line-height: 1.714;
 }
-.examples {
+.section.examples {
     padding-top: 0;
-    pad
-    ding-bottom: 94px;
+    
 }
 
 .examples .list {
@@ -192,6 +193,7 @@ ul {
 
 .foto {
     display: block;
+    max-width: 100%;
 }
 .section-title {
     margin-bottom: 50px;
@@ -201,12 +203,13 @@ ul {
 
 /* наша команда */
 .team   {
-    padding-top: 94px;
-    padding-bottom: 94px;
     background-color: #F5F4FA;
 
 }
 .team .item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
     text-align: center;
 }
 .team .title {
@@ -215,7 +218,6 @@ ul {
     line-height: 1.166;
 }
 .name {
-    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -223,10 +225,13 @@ ul {
 }
 .profession {
     margin-top: 0px;
-    margin-bottom: 30px;
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.187;
+}
+.team-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .team .list {
     display: flex;
@@ -234,6 +239,8 @@ ul {
 }
 /* footer */
 .footer-info {
+    padding-top: 60px;
+    padding-bottom: 60px; 
     background-color: #2F303A;
 }
 .footer-acent {
@@ -247,6 +254,7 @@ ul {
     font-family: 'Roboto';
 }
 .footer-contacts {
+    
     font-style: normal;
 }
 .footer-contacts .link {
@@ -256,12 +264,10 @@ ul {
     line-height: 2px;
 
 }
-.footer {
-    padding-top: 60px;
+
+.footer-logo {
+    display: block;
     margin-bottom: 20px;
-}
-.footer-contacts {
-    padding-bottom: 60px;
 }
 .footer-link {
     margin-bottom: 9px;
@@ -278,14 +284,9 @@ ul {
     /* портфолио (вторая страница)*/
     /* main */
 .portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
     background-color: #ffffff;
 }
-.portfolio-filter .list{
-    display: flex;
-    justify-content: center;
-}
+
 .portfolio-filter .item:not(:last-child) {
     margin-right: 8px;
 
@@ -293,6 +294,11 @@ ul {
 .portfolio .list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.btn-list {
+    margin-bottom: 50px;
 }
 .portfolio-item {
     width: calc((100% - 60px) / 3);
@@ -312,7 +318,7 @@ ul {
 }
 
 .btn {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     font-family: 'Roboto';
     background-color: #F5F4FA;
     color: var(--main-text-color);
@@ -334,9 +340,9 @@ ul {
 
 }
 .portfolio-title {
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    /* margin-top: 20px; */
     margin-bottom: 4px;
 }
 .portfolio .portfolio-title {
@@ -344,10 +350,10 @@ ul {
     line-height: 2;
 }
 .about {
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
     margin-top: 0;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .portfolio .about {
     color: #757575;
@@ -355,7 +361,10 @@ ul {
     line-height: 1.875;
 }
 
-
+.portfolio-info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .title, .section-title {
     text-align: center;
