@@ -124,7 +124,7 @@ section.hero {
     text-align: center;
 }
 .hero .title {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
@@ -297,9 +297,10 @@ section.hero {
     justify-content: center;
     
 }
-.btn-list {
+.portfolio-filter {
     margin-bottom: 50px;
 }
+
 .portfolio-item {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
